@@ -9,6 +9,6 @@ try:
         for komorka in dane:
             ws.cell(row=komorka['row'], column=komorka['column']).value = komorka['value']
             print(komorka)
-        wb.save("zdanie11.xlsx")
+        wb.save("zadanie11.xlsx")
 except IOError:
     print("Blad IO")
